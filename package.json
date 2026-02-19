@@ -1,13 +1,13 @@
 {
-  "name": "tree-sitter-ws",
+  "name": "tree-sitter-wfs",
   "version": "0.1.0",
-  "description": "Tree-sitter grammar for WS (Window Schema)",
+  "description": "Tree-sitter grammar for WFS (Window Field Schema)",
   "main": "bindings/node",
   "types": "bindings/node",
   "keywords": [
     "tree-sitter",
     "parser",
-    "ws",
+    "wfs",
     "window-schema"
   ],
   "files": [
@@ -36,9 +36,9 @@
   },
   "tree-sitter": [
     {
-      "scope": "source.ws",
+      "scope": "source.wfs",
       "file-types": [
-        "ws"
+        "wfs"
       ],
       "highlights": "queries/highlights.scm"
     }
