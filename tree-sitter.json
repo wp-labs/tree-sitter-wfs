@@ -1,0 +1,22 @@
+{
+  "grammars": [
+    {
+      "name": "wfs",
+      "camelcase": "Wfs",
+      "scope": "source.wfs",
+      "path": ".",
+      "file-types": ["wfs"],
+      "highlights": "queries/highlights.scm"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Tree-sitter grammar for WFS (Window Field Schema)",
+    "authors": [{"name": "WarpLabs"}],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/wp-labs/tree-sitter-wfs"
+    }
+  }
+}
